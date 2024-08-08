@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Silkscreen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-box {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    background-color: #ffffff95;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #00718d41;
+    z-index: 2;
+    backdrop-filter: blur(5px);
+}
+
+.signup-header h1 {
+    color: #232323;
+    font-size: 2.5rem;
+}
+
+.signup-header p {
+    color: #313131;
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
+.signup-body {
+    margin: 20px 0px;
+
+}
+
+.signup-body p {
+    margin: 10px 0px;
+}
+
+.signup-body p label {
+    display: block;
+    font-weight: bold;
+
+
+}
+
+.signup-body p input {
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #54dbfd;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #def4faa9;
+    
+    
+}
+
+.signup-body p input[type="submit"] {
+    background-color: #00ccff;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.signup-body p input[type="submit"]:hover{
+    background-color: #00b9e8;
+    
+}
+.signup-body p input::placeholder {
+    color: #3b3b3b; 
+}
+
+.signup-footer {
+    text-align: center;
+}
+
+.signup-footer p {
+    font-size: 1rem;
+    color: #313131;
+}
+.signup-footer p a{
+    color: #34a4c0;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to left , #ffffff40, #ffffffdf);
+    position: absolute;
+}
+.c1{
+    top: 100px;
+    left: 30px;
+}
+.c2{
+    bottom: 200px;
+    right: 40px;
+}
